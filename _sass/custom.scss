@@ -1,0 +1,43 @@
+/* Publication Cards */
+
+.publication-card {
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 25px;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.publication-card h2{
+    margin-top:0;
+}
+
+.publication-meta{
+    color:#666;
+    font-size:0.95rem;
+    margin-bottom:10px;
+}
+
+.publication-summary{
+    margin:12px 0;
+}
+
+.pub-tag{
+    display:inline-block;
+    background:#f3f3f3;
+    padding:4px 10px;
+    margin:4px 4px 0 0;
+    border-radius:20px;
+    font-size:0.8rem;
+}
+
+.pub-links{
+    margin-top:15px;
+}
+
+.pub-links a{
+    margin-right:15px;
+    text-decoration:none;
+    font-weight:600;
+}
