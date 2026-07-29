@@ -23,7 +23,7 @@ repository               : "abhiresearch24/abhiresearch24.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "unnamed.png"
+  avatar           : "profile.png"
   name             : "Abhishek Srivastava"
   pronouns         :  "he/him"  
   bio              : "Ph.D Indian Institute of Technology, Delhi|AI for Science and Engineering"
