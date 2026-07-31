@@ -5,7 +5,7 @@ collection: research
 
 permalink: /research/surrogate-optimization/
 
-status: "Under Review"
+status: "Completed"
 
 duration: "2024-2025"
 
