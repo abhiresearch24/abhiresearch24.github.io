@@ -30,7 +30,6 @@ tags:
 
 paperurl: "https://doi.org/10.1016/j.elstat.2024.103916"
 
-githuburl: ""
 
 ---
 
