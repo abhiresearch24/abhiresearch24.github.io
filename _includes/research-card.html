@@ -40,6 +40,13 @@
       </tr>
       {% endif %}
 
+      {% if post.affiliation %}
+      <tr>
+        <td><strong>Affiliation</strong></td>
+        <td>{{ post.affiliation }}</td>
+    </tr>
+    {% endif %}
+
       {% if post.methods %}
       <tr>
         <td><strong>Methods</strong></td>
