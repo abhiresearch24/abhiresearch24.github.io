@@ -6,56 +6,73 @@
   </div>
   {% endif %}
 
-  <div class="research-content">
+  <div class="research-body">
 
-    <h2 class="research-title">
-      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
+    <div class="research-header">
 
-    {% if post.duration or post.status %}
-    <p class="research-meta">
-      {% if post.duration %}
-        <strong>Duration:</strong> {{ post.duration }}
-      {% endif %}
+      <h2 class="research-title">
+        <a href="{{ base_path }}{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h2>
 
       {% if post.status %}
-        &nbsp;&nbsp;|&nbsp;&nbsp;
-        <strong>Status:</strong> {{ post.status }}
+      <span class="research-status">
+        {{ post.status }}
+      </span>
       {% endif %}
-    </p>
-    {% endif %}
 
-    {% if post.role %}
-    <p><strong>Role:</strong> {{ post.role }}</p>
-    {% endif %}
+    </div>
 
     {% if post.excerpt %}
-    <p>{{ post.excerpt }}</p>
-    {% endif %}
-
-    {% if post.methods %}
-    <p>
-      <strong>Methods:</strong>
-      {{ post.methods }}
+    <p class="research-summary">
+      {{ post.excerpt }}
     </p>
     {% endif %}
 
-    {% if post.software %}
-    <p>
-      <strong>Software:</strong>
-      {{ post.software }}
-    </p>
-    {% endif %}
+    <table class="research-meta">
+
+      {% if post.duration %}
+      <tr>
+        <td><strong>Duration</strong></td>
+        <td>{{ post.duration }}</td>
+      </tr>
+      {% endif %}
+
+      {% if post.role %}
+      <tr>
+        <td><strong>Role</strong></td>
+        <td>{{ post.role }}</td>
+      </tr>
+      {% endif %}
+
+      {% if post.methods %}
+      <tr>
+        <td><strong>Methods</strong></td>
+        <td>{{ post.methods }}</td>
+      </tr>
+      {% endif %}
+
+      {% if post.software %}
+      <tr>
+        <td><strong>Software</strong></td>
+        <td>{{ post.software }}</td>
+      </tr>
+      {% endif %}
+
+    </table>
 
     {% if post.tags %}
-    <p class="research-tags">
+    <div class="research-tags">
+
       {% for tag in post.tags %}
       <span class="tag">{{ tag }}</span>
       {% endfor %}
-    </p>
+
+    </div>
     {% endif %}
 
-    <div class="research-links">
+    <div class="research-buttons">
 
       <a class="btn btn--primary"
          href="{{ base_path }}{{ post.url }}">
@@ -63,30 +80,30 @@
       </a>
 
       {% if post.paperurl %}
-      <a class="btn btn--success"
+      <a class="btn"
          href="{{ post.paperurl }}">
-         Paper
+         📄 Paper
       </a>
       {% endif %}
 
       {% if post.githuburl %}
-      <a class="btn btn--info"
+      <a class="btn"
          href="{{ post.githuburl }}">
-         Code
+         💻 Code
       </a>
       {% endif %}
 
       {% if post.posterurl %}
-      <a class="btn btn--warning"
+      <a class="btn"
          href="{{ post.posterurl }}">
-         Poster
+         🖼 Poster
       </a>
       {% endif %}
 
       {% if post.demourl %}
-      <a class="btn btn--inverse"
+      <a class="btn"
          href="{{ post.demourl }}">
-         Demo
+         🚀 Demo
       </a>
       {% endif %}
 
