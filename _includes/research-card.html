@@ -1,1 +1,97 @@
+<div class="research-card">
 
+  {% if post.image %}
+  <div class="research-image">
+    <img src="{{ post.image | prepend: base_path }}" alt="{{ post.title }}">
+  </div>
+  {% endif %}
+
+  <div class="research-content">
+
+    <h2 class="research-title">
+      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+
+    {% if post.duration or post.status %}
+    <p class="research-meta">
+      {% if post.duration %}
+        <strong>Duration:</strong> {{ post.duration }}
+      {% endif %}
+
+      {% if post.status %}
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <strong>Status:</strong> {{ post.status }}
+      {% endif %}
+    </p>
+    {% endif %}
+
+    {% if post.role %}
+    <p><strong>Role:</strong> {{ post.role }}</p>
+    {% endif %}
+
+    {% if post.excerpt %}
+    <p>{{ post.excerpt }}</p>
+    {% endif %}
+
+    {% if post.methods %}
+    <p>
+      <strong>Methods:</strong>
+      {{ post.methods }}
+    </p>
+    {% endif %}
+
+    {% if post.software %}
+    <p>
+      <strong>Software:</strong>
+      {{ post.software }}
+    </p>
+    {% endif %}
+
+    {% if post.tags %}
+    <p class="research-tags">
+      {% for tag in post.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </p>
+    {% endif %}
+
+    <div class="research-links">
+
+      <a class="btn btn--primary"
+         href="{{ base_path }}{{ post.url }}">
+         Details
+      </a>
+
+      {% if post.paperurl %}
+      <a class="btn btn--success"
+         href="{{ post.paperurl }}">
+         Paper
+      </a>
+      {% endif %}
+
+      {% if post.githuburl %}
+      <a class="btn btn--info"
+         href="{{ post.githuburl }}">
+         Code
+      </a>
+      {% endif %}
+
+      {% if post.posterurl %}
+      <a class="btn btn--warning"
+         href="{{ post.posterurl }}">
+         Poster
+      </a>
+      {% endif %}
+
+      {% if post.demourl %}
+      <a class="btn btn--inverse"
+         href="{{ post.demourl }}">
+         Demo
+      </a>
+      {% endif %}
+
+    </div>
+
+  </div>
+
+</div>
