@@ -1,4 +1,6 @@
-/* Publication Cards */
+/* ==========================================================
+   Publication Cards
+========================================================== */
 
 .publication-card {
     border: 1px solid #e3e3e3;
@@ -40,4 +42,109 @@
     margin-right:15px;
     text-decoration:none;
     font-weight:600;
+}
+
+
+/* ==========================================================
+   Research Cards
+========================================================== */
+
+.research-card{
+    display:flex;
+    gap:25px;
+    background:#fff;
+    border:1px solid #e3e3e3;
+    border-radius:10px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.08);
+    padding:20px;
+    margin-bottom:30px;
+    transition:all .3s ease;
+}
+
+.research-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.12);
+}
+
+.research-image{
+    flex:0 0 280px;
+}
+
+.research-image img{
+    width:100%;
+    border-radius:8px;
+}
+
+.research-body{
+    flex:1;
+}
+
+.research-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.research-title{
+    margin:0;
+}
+
+.research-title a{
+    text-decoration:none;
+}
+
+.research-status{
+    background:#0066cc;
+    color:white;
+    padding:4px 12px;
+    border-radius:20px;
+    font-size:0.8rem;
+}
+
+.research-summary{
+    margin:15px 0;
+}
+
+.research-meta{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.research-meta td{
+    padding:5px 0;
+    vertical-align:top;
+}
+
+.research-tags{
+    margin-top:12px;
+}
+
+.tag{
+    display:inline-block;
+    background:#f3f3f3;
+    padding:4px 10px;
+    border-radius:20px;
+    margin:3px;
+    font-size:0.8rem;
+}
+
+.research-buttons{
+    margin-top:20px;
+}
+
+.research-buttons .btn{
+    margin-right:10px;
+    margin-bottom:8px;
+}
+
+@media (max-width:768px){
+
+.research-card{
+    flex-direction:column;
+}
+
+.research-image{
+    flex:none;
+}
+
 }
