@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -218,19 +218,30 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
 
-# These settings control the types of collections used by the template
 collections:
-  teaching:
+  research:
     output: true
     permalink: /:collection/:path/
+
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+
+  teaching:
     output: true
     permalink: /:collection/:path/
-  talks:
+
+  experience:
+    output: true
+    permalink: /:collection/:path/
+
+  awards:
+    output: true
+    permalink: /:collection/:path/
+
+  skills:
     output: true
     permalink: /:collection/:path/
 
