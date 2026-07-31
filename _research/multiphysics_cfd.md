@@ -11,6 +11,8 @@ duration: "2023–2024"
 
 role: "Ph.D Researcher"
 
+Affiliation: "Department of Mechanical Engineering, IIT Delhi"
+
 excerpt: "Development of a high-fidelity multiphysics computational framework integrating computational fluid dynamics, electrostatics, and particle tracing to investigate charged aerosol transport and optimize electrostatic particle collection by charge spherical collector."
 
 methods: "Computational Fluid Dynamics (CFD) • Finite Element Method (FEM) • Electrostatics • Lagrangian Particle Tracking • Numerical Simulation"
