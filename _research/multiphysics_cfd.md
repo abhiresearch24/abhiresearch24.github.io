@@ -17,7 +17,7 @@ excerpt: "Development of a high-fidelity multiphysics computational framework in
 
 methods: "Computational Fluid Dynamics (CFD) • Finite Element Method (FEM) • Electrostatics • Lagrangian Particle Tracking • Numerical Simulation"
 
-software: "COMSOL Multiphysics • MATLAB • Python"
+software: "COMSOL Multiphysics • Python"
 
 tags:
   - CFD
