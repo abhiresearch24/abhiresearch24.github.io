@@ -1,5 +1,5 @@
 ---
-title: "Multiphysics CFD Modeling of Aerosol Particle Capture by Spherical Collector"
+title: "Multiphysics CFD Modeling of Aerosol Particle Capture by Charged Spherical Collector"
 
 collection: research
 
