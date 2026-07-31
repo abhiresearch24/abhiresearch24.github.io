@@ -1,0 +1,113 @@
+---
+title: "Solving Bayesian Inverse Problems using Variational Autoencoders for Uncertainty Quantification"
+
+collection: research
+
+permalink: /research/bayesian-inverse-problems/
+
+status: "Ongoing"
+
+duration: "2026–Present"
+
+role: "Researcher"
+
+affiliation: "Indian Institute of Technology Pallakad"
+
+excerpt: "Developing Bayesian deep learning frameworks for inverse problems by integrating variational inference, deep generative models, Fisher information geometry, and uncertainty quantification for computational science and engineering."
+
+methods: "Bayesian Inference • Variational Autoencoders • Markov Chain Monte Carlo • Fisher Information Matrix • Scientific Machine Learning"
+
+software: "Python • TensorFlow • PyTorch • NumPy • SciPy • Matplotlib"
+
+tags:
+  - Bayesian Inference
+  - Scientific Machine Learning
+  - Uncertainty Quantification
+  - Variational Autoencoders
+  - Normalizing Flows
+  - Bayesian Inverse Problems
+  - Deep Generative Models
+  - Fisher Information
+  - MCMC
+
+githuburl: ""
+
+---
+
+## Project Overview
+
+Many engineering inverse problems are inherently ill-posed, meaning that multiple parameter combinations may explain the same experimental observations. Traditional optimization methods often provide only a single best-fit solution without quantifying the associated uncertainty. This project aims to develop Bayesian deep learning frameworks capable of efficiently approximating posterior probability distributions while providing reliable uncertainty estimates.
+
+The research combines probabilistic machine learning, information geometry, and deep generative models to accelerate Bayesian inference for computationally expensive engineering systems. Particular emphasis is placed on understanding how the geometry of the posterior distribution influences learning dynamics, uncertainty estimation, and model robustness.
+
+---
+
+## Research Objectives
+
+- Develop scalable Bayesian inference algorithms for engineering inverse problems.
+- Investigate variational autoencoders for posterior approximation.
+- Compare deep generative models with Markov Chain Monte Carlo methods.
+- Study the role of Fisher Information Matrix geometry in probabilistic learning.
+- Improve uncertainty estimation for ill-conditioned inverse problems.
+- Develop trustworthy Scientific Machine Learning methodologies.
+
+---
+
+## Methodology
+
+The research integrates several probabilistic learning approaches, including:
+
+- Variational Autoencoders (VAE)
+- Full-covariance posterior modeling
+- Normalizing Flows
+- Markov Chain Monte Carlo (MCMC)
+- Information Geometry
+- Fisher Information Matrix analysis
+- Bayesian optimization
+- Physics-informed probabilistic learning
+
+The developed frameworks are evaluated on benchmark inverse problems and engineering applications with varying levels of ill-conditioning.
+
+---
+
+## Key Contributions
+
+- Developed Bayesian deep learning frameworks for inverse problems.
+- Investigated the relationship between posterior geometry and variational learning.
+- Compared variational inference with MCMC-based posterior estimation.
+- Analyzed the influence of Fisher Information Matrix conditioning on uncertainty estimation.
+- Explored information-theoretic regularization strategies for improving posterior approximation.
+- Established a research foundation for trustworthy AI in computational mechanics.
+
+---
+
+## Technologies Used
+
+- Python
+- TensorFlow
+- PyTorch
+- NumPy
+- SciPy
+- Matplotlib
+- Optuna
+- Git
+
+---
+
+## Research Outcomes
+
+This project establishes a unified probabilistic framework for solving inverse problems in computational science and engineering. By combining Bayesian inference, deep generative models, and uncertainty quantification, the research aims to enable reliable parameter estimation, uncertainty-aware prediction, and accelerated scientific discovery. The methodologies developed are applicable to computational mechanics, fluid dynamics, materials science, geophysics, and other domains requiring trustworthy Scientific Machine Learning.
+
+---
+
+## Current Research Topics
+
+- Bayesian Inverse Problems
+- Variational Inference
+- Deep Generative Models
+- Scientific Machine Learning
+- Information Geometry
+- Fisher Information Matrix
+- Uncertainty Quantification
+- Physics-Informed Machine Learning
+- Trustworthy Artificial Intelligence
