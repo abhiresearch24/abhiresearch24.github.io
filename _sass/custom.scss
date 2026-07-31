@@ -1,150 +1,208 @@
 /* ==========================================================
-   Publication Cards
+   UNIVERSAL CARD DESIGN
 ========================================================== */
 
-.publication-card {
-    border: 1px solid #e3e3e3;
-    border-radius: 10px;
-    padding: 18px;
-    margin-bottom: 25px;
-    background: #fff;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+.publication-card,
+.research-card,
+.experience-card,
+.teaching-card,
+.award-card{
+
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+
+    padding:24px;
+
+    margin-bottom:30px;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+
+    transition:.3s ease;
 }
 
-.publication-card h2{
-    margin-top:0;
-}
+.publication-card:hover,
+.research-card:hover,
+.experience-card:hover,
+.teaching-card:hover,
+.award-card:hover{
 
-.publication-meta{
-    color:#666;
-    font-size:0.95rem;
-    margin-bottom:10px;
-}
+    transform:translateY(-5px);
 
-.publication-summary{
-    margin:12px 0;
-}
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
 
-.pub-tag{
-    display:inline-block;
-    background:#f3f3f3;
-    padding:4px 10px;
-    margin:4px 4px 0 0;
-    border-radius:20px;
-    font-size:0.8rem;
-}
-
-.pub-links{
-    margin-top:15px;
-}
-
-.pub-links a{
-    margin-right:15px;
-    text-decoration:none;
-    font-weight:600;
 }
 
 
 /* ==========================================================
-   Research Cards
+   TITLES
 ========================================================== */
 
-.research-card{
-    display:flex;
-    gap:25px;
-    background:#fff;
-    border:1px solid #e3e3e3;
-    border-radius:10px;
-    box-shadow:0 2px 6px rgba(0,0,0,0.08);
-    padding:20px;
-    margin-bottom:30px;
-    transition:all .3s ease;
+.publication-card h2,
+.research-card h2,
+.experience-card h2,
+.teaching-card h2,
+.award-card h2{
+
+    margin-top:0;
+
+    margin-bottom:10px;
+
+    font-size:1.6rem;
+
 }
 
-.research-card:hover{
-    transform:translateY(-3px);
-    box-shadow:0 8px 20px rgba(0,0,0,0.12);
+.publication-card h2 a,
+.research-card h2 a{
+
+    text-decoration:none;
+
 }
+
+
+/* ==========================================================
+   META INFORMATION
+========================================================== */
+
+.publication-meta,
+.research-meta,
+.experience-meta,
+.teaching-meta,
+.award-meta{
+
+    color:#666;
+
+    font-size:.95rem;
+
+    margin-bottom:15px;
+
+}
+
+
+/* ==========================================================
+   SUMMARY
+========================================================== */
+
+.publication-summary,
+.research-summary,
+.experience-summary{
+
+    line-height:1.8;
+
+    margin-bottom:15px;
+
+}
+
+
+/* ==========================================================
+   TAGS
+========================================================== */
+
+.pub-tag,
+.tag{
+
+    display:inline-block;
+
+    background:#eef3ff;
+
+    color:#0056b3;
+
+    padding:5px 12px;
+
+    margin:4px;
+
+    border-radius:25px;
+
+    font-size:.82rem;
+
+    font-weight:500;
+
+}
+
+
+/* ==========================================================
+   BUTTONS
+========================================================== */
+
+.pub-links,
+.research-buttons{
+
+    margin-top:18px;
+
+}
+
+.pub-links a,
+.research-buttons a{
+
+    display:inline-block;
+
+    margin-right:10px;
+
+    margin-top:8px;
+
+    padding:8px 16px;
+
+    border-radius:6px;
+
+    border:1px solid #0056b3;
+
+    color:#0056b3;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.pub-links a:hover,
+.research-buttons a:hover{
+
+    background:#0056b3;
+
+    color:white;
+
+}
+
+
+/* ==========================================================
+   RESEARCH IMAGE
+========================================================== */
 
 .research-image{
-    flex:0 0 280px;
+
+    margin-bottom:18px;
+
 }
 
 .research-image img{
+
     width:100%;
-    border-radius:8px;
+
+    border-radius:10px;
+
 }
 
-.research-body{
-    flex:1;
-}
 
-.research-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-
-.research-title{
-    margin:0;
-}
-
-.research-title a{
-    text-decoration:none;
-}
+/* ==========================================================
+   STATUS BADGE
+========================================================== */
 
 .research-status{
-    background:#0066cc;
-    color:white;
-    padding:4px 12px;
-    border-radius:20px;
-    font-size:0.8rem;
-}
 
-.research-summary{
-    margin:15px 0;
-}
-
-.research-meta{
-    width:100%;
-    border-collapse:collapse;
-}
-
-.research-meta td{
-    padding:5px 0;
-    vertical-align:top;
-}
-
-.research-tags{
-    margin-top:12px;
-}
-
-.tag{
     display:inline-block;
-    background:#f3f3f3;
-    padding:4px 10px;
+
+    padding:4px 12px;
+
     border-radius:20px;
-    margin:3px;
-    font-size:0.8rem;
-}
 
-.research-buttons{
-    margin-top:20px;
-}
+    background:#198754;
 
-.research-buttons .btn{
-    margin-right:10px;
-    margin-bottom:8px;
-}
+    color:white;
 
-@media (max-width:768px){
+    font-size:.8rem;
 
-.research-card{
-    flex-direction:column;
-}
-
-.research-image{
-    flex:none;
-}
+    font-weight:600;
 
 }
