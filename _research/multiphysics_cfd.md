@@ -78,7 +78,6 @@ Thousands of numerical simulations were performed over a wide range of operating
 
 - COMSOL Multiphysics
 - Python
-- MATLAB
 - Finite Element Analysis
 - Computational Fluid Dynamics
 - Scientific Computing
