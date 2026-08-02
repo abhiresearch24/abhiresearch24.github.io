@@ -33,6 +33,30 @@
   </p>
   {% endif %}
 
+  {% if post.supervisors %}
+  <p>
+  <strong>Ph.D. Supervisors:</strong>
+
+  {% for supervisor in post.supervisors %}
+
+    {% if supervisor.url %}
+      <a href="{{ supervisor.url }}"
+         target="_blank"
+         rel="noopener noreferrer">
+        {{ supervisor.name }}
+      </a>
+    {% else %}
+      {{ supervisor.name }}
+    {% endif %}
+
+    {% unless forloop.last %}
+      &nbsp;•&nbsp;
+    {% endunless %}
+
+  {% endfor %}
+</p>
+{% endif %}
+
   {% if post.summary %}
   <p class="experience-summary">
     {{ post.summary }}
