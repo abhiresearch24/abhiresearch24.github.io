@@ -5,7 +5,7 @@ permalink: /contact/
 author_profile: true
 ---
 
-I am interested in research collaborations and postdoctoral opportunities in **Scientific Machine Learning, Bayesian Inference, Uncertainty Quantification, Computational Mechanics, and AI for Science**.
+I am interested in research collaborations and postdoctoral opportunities in **Scientific Machine Learning, Bayesian Inference, Uncertainty Quantification, Computational fluid dynamics, and AI for Science**.
 
 Researchers and collaborators working in related areas are welcome to get in touch.
 
