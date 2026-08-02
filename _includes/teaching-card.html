@@ -1,0 +1,58 @@
+<div class="teaching-card">
+
+  <h2>{{ post.title }}</h2>
+
+  {% if post.institution %}
+  <div class="teaching-meta">
+    <strong>{{ post.institution }}</strong>
+  </div>
+  {% endif %}
+
+  {% if post.coursecode %}
+  <p>
+    <strong>Course Code:</strong> {{ post.coursecode }}
+  </p>
+  {% endif %}
+
+  {% if post.semester %}
+  <p>
+    <strong>Semester:</strong> {{ post.semester }}
+  </p>
+  {% endif %}
+
+  {% if post.level %}
+  <p>
+    <strong>Level:</strong> {{ post.level }}
+  </p>
+  {% endif %}
+
+  {% if post.instructor %}
+  <p>
+    <strong>Instructor:</strong>
+    {% if post.instructorurl %}
+      <a href="{{ post.instructorurl }}"
+         target="_blank"
+         rel="noopener noreferrer">
+        {{ post.instructor }}
+      </a>
+    {% else %}
+      {{ post.instructor }}
+    {% endif %}
+  </p>
+  {% endif %}
+
+  {% if post.summary %}
+  <p class="teaching-summary">
+    {{ post.summary }}
+  </p>
+  {% endif %}
+
+  {% if post.tags %}
+  <div class="teaching-tags">
+    {% for tag in post.tags %}
+      <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+</div>
