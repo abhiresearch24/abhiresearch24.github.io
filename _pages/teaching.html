@@ -1,12 +1,20 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Teaching Experience"
 permalink: /teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<p>
+During my doctoral studies at the Indian Institute of Technology Delhi, 
+I served as a Teaching Assistant for multiple undergraduate and postgraduate 
+courses in Mechanical Engineering. My responsibilities included assisting 
+with tutorials and laboratory sessions, supporting students with course 
+material, and contributing to assessment and evaluation activities.
+</p>
+
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  {% include teaching-card.html %}
 {% endfor %}
