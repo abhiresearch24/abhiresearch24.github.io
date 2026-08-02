@@ -7,7 +7,7 @@ institution: "Indian Institute of Technology Palakkad"
 department: "Department of Mechanical Engineering"
 duration: "01-02-2026–Present"
 mentor: "Prof. Arijit Hazra"
-mentorurl: "OFFICIAL_IIT_PALAKKAD_PROFILE_URL"
+mentorurl: "https://iitpkd.ac.in/people/ahazra"
 
 summary: "Working on Bayesian inverse problems using deep learning and probabilistic machine learning, with emphasis on variational inference and uncertainty quantification for computational engineering applications."
 
