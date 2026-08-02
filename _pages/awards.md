@@ -16,6 +16,9 @@ The workshop brought together researchers working on electrostatic precipitation
 
 ---
 
-## Academic & Research Recognition
+## MHRD Fellowship — Doctoral Research
 
-Additional academic awards, research recognitions, fellowships, and honors will be listed here.
+**Ministry of Human Resource Development (MHRD), Government of India**  
+**Indian Institute of Technology Delhi**
+
+Received financial support through the **MHRD fellowship/assistantship** during doctoral studies in Mechanical Engineering at IIT Delhi
