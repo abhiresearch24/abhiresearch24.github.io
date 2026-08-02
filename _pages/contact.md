@@ -17,7 +17,7 @@ Department of Mechanical Engineering
 Indian Institute of Technology Palakkad  
 Kerala, India
 
-**Email:** [your-email@domain.com](prj340@iitpkd.ac.in)
+**Email:** [prj340@iitpkd.ac.in](prj340@iitpkd.ac.in)
 
 ## Research Profiles
 
