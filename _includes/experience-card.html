@@ -22,7 +22,14 @@
 
   {% if post.mentor %}
   <p>
-    <strong>Mentor:</strong> {{ post.mentor }}
+  <strong>Mentor:</strong>
+  {% if post.mentorurl %}
+    <a href="{{ post.mentorurl }}" target="_blank" rel="noopener noreferrer">
+      {{ post.mentor }}
+    </a>
+  {% else %}
+    {{ post.mentor }}
+  {% endif %}
   </p>
   {% endif %}
 
