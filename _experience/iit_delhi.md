@@ -5,7 +5,7 @@ permalink: /experience/iit-delhi/
 
 institution: "Indian Institute of Technology Delhi"
 department: "Department of Mechanical Engineering"
-duration: "2020–2025"
+duration: "27/12/2019–16/07/2026"
 
 supervisors:
   - name: "Dr. Bahni Ray"
