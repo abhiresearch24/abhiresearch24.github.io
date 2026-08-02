@@ -1,1 +1,49 @@
+<div class="experience-card">
 
+  <h2>{{ post.title }}</h2>
+
+  {% if post.institution %}
+  <div class="experience-meta">
+    <strong>{{ post.institution }}</strong>
+  </div>
+  {% endif %}
+
+  {% if post.duration %}
+  <p>
+    <strong>Duration:</strong> {{ post.duration }}
+  </p>
+  {% endif %}
+
+  {% if post.department %}
+  <p>
+    <strong>Department:</strong> {{ post.department }}
+  </p>
+  {% endif %}
+
+  {% if post.mentor %}
+  <p>
+    <strong>Mentor:</strong> {{ post.mentor }}
+  </p>
+  {% endif %}
+
+  {% if post.summary %}
+  <p class="experience-summary">
+    {{ post.summary }}
+  </p>
+  {% endif %}
+
+  {% if post.tags %}
+  <div class="experience-tags">
+    {% for tag in post.tags %}
+      <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if post.url %}
+  <div class="research-buttons">
+    <a href="{{ base_path }}{{ post.url }}">Details</a>
+  </div>
+  {% endif %}
+
+</div>
