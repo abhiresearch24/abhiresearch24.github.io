@@ -8,11 +8,11 @@ department: "Department of Mechanical Engineering"
 duration: "2020–2025"
 
 supervisors:
-  - name: "Prof. Bahni Ray"
-    url: "PASTE_PROF_BAHNI_RAY_PROFILE_URL"
+  - name: "Dr. Bahni Ray"
+    url: "https://mech.iitd.ac.in/faculty-profile/188"
 
   - name: "Dr. Mayank Kumar"
-    url: "PASTE_DR_MAYANK_KUMAR_PROFILE_URL"
+    url: "https://mech.iitd.ac.in/faculty-profile/186"
 
 summary: "Conducted doctoral research at the intersection of multiphysics modeling, computational fluid dynamics, scientific machine learning, explainable artificial intelligence, surrogate modeling, and engineering optimization for electrostatic aerosol particle collection."
 
