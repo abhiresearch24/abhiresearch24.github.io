@@ -125,7 +125,7 @@ Major research contributions included:
 **A. Srivastava**, S. Kandpal, B. Ray, M. Kumar, and D. Dasgupta,  
 “Uncovering Hidden Trade-Off Patterns in Charged Particle Collection Using K-Means Clustering and Machine Learning Assisted Multiobjective Optimization.”
 
-**Status:** [Under Review / In Preparation — update according to current status]
+**Status:** [Under Review]
 
 ---
 
