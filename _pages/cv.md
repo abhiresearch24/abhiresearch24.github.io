@@ -256,4 +256,4 @@ Git, GitHub, VS Code, LaTeX, Jupyter, Linux
 
 ## Download CV
 
-[**Download Full CV (PDF)**](/files/Abhishek_Srivastava_CV.pdf)
+[**Download Full CV (PDF)**](/files/Abhishek_CV.pdf)
