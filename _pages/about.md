@@ -10,7 +10,7 @@ redirect_from:
 
 # Welcome!
 
-I am **Abhishek Srivastava**, a Mechanical Engineer with a Ph.D. from the **Indian Institute of Technology (IIT) Delhi**. My research lies at the intersection of **Scientific Machine Learning**, **Computational Mechanics**, and **Multiphysics Modeling**, where I develop interpretable, data-efficient, and uncertainty-aware computational frameworks for solving complex engineering problems.
+I am **Abhishek Srivastava**, a Mechanical Engineer with a Ph.D. from the **Indian Institute of Technology (IIT) Delhi**. My research lies at the intersection of **Scientific Machine Learning**, **Computational Fluid Dynamics**, and **Multiphysics Modeling**, where I develop interpretable, data-efficient, and uncertainty-aware computational frameworks for solving complex engineering problems.
 
 My doctoral research focused on integrating high-fidelity multiphysics simulations, computational fluid dynamics (CFD), electrostatics, explainable artificial intelligence (XAI), surrogate modeling, and multi-objective optimization to investigate charged particle dynamics and optimize electrostatic particle collection systems. By combining first-principles physics with machine learning, my work demonstrated how data-driven models can accelerate engineering design while preserving physical interpretability and computational efficiency.
 
@@ -25,13 +25,11 @@ I have extensive experience in **Computational Fluid Dynamics (CFD), Multiphysic
 * Deep Generative Models
 * Bayesian Inverse Problems
 * Computational Fluid Dynamics (CFD)
-* Computational Mechanics
 * Multiphysics Modeling
 * Surrogate Modeling
 * Explainable Artificial Intelligence (XAI)
-* Operator Learning
-* Digital Twins
-* Scientific Computing
+
+
 
 ## Research Vision
 
